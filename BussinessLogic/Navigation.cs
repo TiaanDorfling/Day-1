@@ -70,6 +70,10 @@ namespace Day_1.BussinessLogic
 					write.streamWrite();
 					break;
 				case 3:
+					Console.Clear();
+					Clear clear = new Clear(fileName);
+					clear.clear();
+					Console.WriteLine("File was cleared.");
 					break;
 				default:
 					break;
