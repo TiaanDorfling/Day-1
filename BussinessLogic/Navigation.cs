@@ -72,7 +72,7 @@ namespace Day_1.BussinessLogic
 				case 3:
 					Console.Clear();
 					Clear clear = new Clear(fileName);
-					clear.clear();
+					clear.Clear();
 					Console.WriteLine("File was cleared.");
 					break;
 				default:

@@ -17,7 +17,7 @@ namespace Day_1.BussinessLogic
 			this.fileName = fileName;
 		}
 
-		public void clear()
+		public void Clear()
 		{
 			using (FileStream fileStream = File.Create(fileName))
 			{
